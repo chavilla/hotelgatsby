@@ -1,9 +1,10 @@
 import React from "react"
+import Imagehotel from "../components/imageHotel"
 import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <h1>index</h1>
+    <Imagehotel/>
   </Layout>
 )
 

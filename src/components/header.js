@@ -6,8 +6,8 @@ const Header = () => {
     return ( 
         <header
         css={css`
-            background-color:#333;
-            padding: 1rem;
+            background-color:#222;
+            padding: .3rem;
         `}>
             <div
             css={
