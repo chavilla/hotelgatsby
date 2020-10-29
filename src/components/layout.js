@@ -10,9 +10,13 @@ const Layout = props => {
             styles={css`
                 html{
                     font-size:62.5%;
+                    box-sizing:border-box;
+                }
+
+                *, *:before, *:after {
+                box-sizing: inherit;
                 }
                 body{
-                    background-color:#e1e1e1;
                     font-size:18px;
                     font-size:1.8rem;
                     line-height:1.5;

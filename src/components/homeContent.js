@@ -6,7 +6,7 @@ import { css } from '@emotion/core';
 
 const TextHome=styled.div`
     padding-top:4rem;
-    max-width:1200px;
+    max-width:1100px;
     width:95%;
     margin:0 auto;
 

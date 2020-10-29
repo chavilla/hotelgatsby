@@ -3,6 +3,8 @@ import { graphql, useStaticQuery } from 'gatsby';
 import BackgroundImage from 'gatsby-background-image';
 import styled from '@emotion/styled';
 
+
+// styled components
 const ImageBackground=styled(BackgroundImage)`
     height:500px;
 `;
