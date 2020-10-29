@@ -10,12 +10,14 @@ const ToHome=styled(Link)`
     text-decoration:none;
 `;
 
-const Header = () => {
+const Footer = ({title}) => {
     return ( 
-        <header
+        <>
+        <footer
         css={css`
-              background-color:rgba(44,62,80);
+            background-color:rgba(44,62,80);
             padding: .3rem;
+            margin-top:5rem;
         `}>
             <div
             css={
@@ -30,13 +32,25 @@ const Header = () => {
                 `
             }>
 
+                <Nav/>
                 <ToHome to='/'>
                     <h1>Hotel Gatsby</h1>
                 </ToHome>
-                <Nav/>
             </div>
-        </header>
+        </footer>
+        <p
+        css={
+            css`
+                text-align:center;
+                color:#fff;
+                background-color: rgb(33,44,55);
+                margin:0;
+                padding: 1rem;
+            `
+        }
+        >{title}. Todos los deechos reservados { new Date().getFullYear() } &copy; </p>
+        </>
      );
 }
  
-export default Header;
+export default Footer;
